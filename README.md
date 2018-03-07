@@ -45,21 +45,34 @@ If you use this dataset in scientific context, please cite the following
 publications:
 
 ```bibtex
+
+@inproceedings{Buerhop2018,
+  author={Claudia Buerhop-Lutz and Sergiu Deitsch and Andreas Maier and Florian
+  Gallwitz and Christoph J. Brabec},
+  title={A Benchmark for Visual Identification of Defective Solar Cells in
+  Electroluminescence Imagery},
+  booktitle={35th European PV Solar Energy Conference and Exhibition},
+  year={2018},
+  note={submitted},
+}
+
 @article{Deitsch2018a,
-  authors={Sergiu Deitsch and Claudia Buerhop-Lutz and Andreas Maier and Florian
+  author={Sergiu Deitsch and Claudia Buerhop-Lutz and Andreas Maier and Florian
   Gallwitz and Christian Riess},
   title={Segmentation of Photovoltaic Module Cells in Electroluminescence Images},
   journal={Solar Energy},
+  year={2018},
   note={to be submitted},
 }
 
 @article{Deitsch2018b,
-  authors={Sergiu Deitsch and Vincent Christlein and Stephan Berger Claudia Buerhop-Lutz and Andreas Maier and Florian
+  author={Sergiu Deitsch and Vincent Christlein and Stephan Berger Claudia Buerhop-Lutz and Andreas Maier and Florian
   Gallwitz and Christian Riess},
   title={Classification of Defective Photovoltaic Module Cells in
   Electroluminescence Images Using Support Vector Machines and Convolutional
   Neural Networks},
   journal={Solar Energy},
+  year={2018},
   note={to be submitted},
 }
 ```
