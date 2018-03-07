@@ -4,7 +4,7 @@ This repository provides a dataset of solar cell images extracted from
 high-resolution electroluminescence images of photovoltaic modules.
 
 ![An overview of images in the dataset. The darker the red is, the higher is the
-likelihood of a defect in the solar cell overlayed by the corresponding color.](./doc/images/overview.jpg){width=100%}
+likelihood of a defect in the solar cell overlayed by the corresponding color.](./doc/images/overview.jpg)
 
 ## The Dataset
 
