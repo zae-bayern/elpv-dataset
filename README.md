@@ -66,7 +66,7 @@ publications:
 }
 
 @article{Deitsch2018b,
-  author={Sergiu Deitsch and Vincent Christlein and Stephan Berger Claudia Buerhop-Lutz and Andreas Maier and Florian
+  author={Sergiu Deitsch and Vincent Christlein and Stephan Berger and Claudia Buerhop-Lutz and Andreas Maier and Florian
   Gallwitz and Christian Riess},
   title={Classification of Defective Photovoltaic Module Cells in
   Electroluminescence Images Using Support Vector Machines and Convolutional
