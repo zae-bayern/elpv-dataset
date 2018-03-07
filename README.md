@@ -39,6 +39,31 @@ images, proba, types = load_dataset()
 
 The code requires NumPy and Pillow to work correctly.
 
+## Citing
+
+If you use this dataset in scientific context, please cite the following
+publications:
+
+```bibtex
+@article{Deitsch2018a,
+  authors={Sergiu Deitsch and Claudia Buerhop-Lutz and Andreas Maier and Florian
+  Gallwitz and Christian Riess},
+  title={Segmentation of Photovoltaic Module Cells in Electroluminescence Images},
+  journal={Solar Energy},
+  note={to be submitted},
+}
+
+@article{Deitsch2018b,
+  authors={Sergiu Deitsch and Vincent Christlein and Stephan Berger Claudia Buerhop-Lutz and Andreas Maier and Florian
+  Gallwitz and Christian Riess},
+  title={Classification of Defective Photovoltaic Module Cells in
+  Electroluminescence Images Using Support Vector Machines and Convolutional
+  Neural Networks},
+  journal={Solar Energy},
+  note={to be submitted},
+}
+```
+
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
