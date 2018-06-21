@@ -53,7 +53,7 @@ publications:
   Electroluminescence Imagery},
   booktitle={35th European PV Solar Energy Conference and Exhibition},
   year={2018},
-  note={submitted},
+  note={accepted},
 }
 
 @article{Deitsch2018a,
@@ -62,7 +62,7 @@ publications:
   title={Segmentation of Photovoltaic Module Cells in Electroluminescence Images},
   journal={Solar Energy},
   year={2018},
-  note={to be submitted},
+  note={submitted},
 }
 
 @article{Deitsch2018b,
