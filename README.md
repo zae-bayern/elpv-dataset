@@ -14,9 +14,9 @@ extracted from 44 different solar modules. The defects in the annotated images
 are either of intrinsic or extrinsic type and are known to reduce the power
 efficiency of solar modules.
 
-All images are normalized with respect to the size and perspective.
-Additionally, any distortion induced by the lens used to capture the images was
-eliminated prior to image segmentation.
+All images are normalized with respect to size and perspective.
+Additionally, any distortion induced by the camera lens used to capture the EL images was
+eliminated prior to solar cell extraction.
 
 ## Annotations
 
