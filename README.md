@@ -72,7 +72,7 @@ publications:
 Electroluminescence Images},
   journal={Solar Energy},
   year={2018},
-  note={submitted},
+  note={accepted},
 }
 ```
 
