@@ -8,7 +8,7 @@ likelihood of a defect in the solar cell overlayed by the corresponding color.](
 
 ## The Dataset
 
-The dataset contains 2,426 samples of 300x300 pixels 8-bit grayscale images of
+The dataset contains 2,624 samples of 300x300 pixels 8-bit grayscale images of
 functional and defective solar cells with varying degree of degradations
 extracted from 44 different solar modules. The defects in the annotated images
 are either of intrinsic or extrinsic type and are known to reduce the power
