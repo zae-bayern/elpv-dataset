@@ -46,14 +46,14 @@ publications:
 
 ```bibtex
 
-@inproceedings{Buerhop2018,
-  author={Claudia Buerhop-Lutz and Sergiu Deitsch and Andreas Maier and Florian
-  Gallwitz and Christoph J. Brabec},
-  title={A Benchmark for Visual Identification of Defective Solar Cells in
-  Electroluminescence Imagery},
-  booktitle={35th European PV Solar Energy Conference and Exhibition},
-  year={2018},
-  note={accepted},
+@InProceedings{Buerhop2018,
+  author    = {Buerhop-Lutz, Claudia and Deitsch, Sergiu and Maier, Andreas and Gallwitz, Florian and Hauch, Jens and Camus, Christian and Brabec, Christoph J.},
+  title     = {A Benchmark for Visual Identification of Defective Solar Cells in Electroluminescence Imagery},
+  booktitle = {European PV Solar Energy Conference and Exhibition (EU PVSEC)},
+  year      = {2018},
+  eventdate = {2018-09-24/2018-09-28},
+  venue     = {Brussels, Belgium},
+  doi       = {10.4229/35thEUPVSEC20182018-5CV.3.15},
 }
 
 @article{Deitsch2018a,
