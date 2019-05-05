@@ -65,14 +65,17 @@ publications:
   note={submitted},
 }
 
-@article{Deitsch2018b,
-  author={Sergiu Deitsch and Vincent Christlein and Stephan Berger and Claudia Buerhop-Lutz and Andreas Maier and Florian
-  Gallwitz and Christian Riess},
-  title={Automatic Classification of Defective Photovoltaic Module Cells in
-Electroluminescence Images},
-  journal={Solar Energy},
-  year={2018},
-  note={accepted},
+@Article{Deitsch2019,
+  author    = {Sergiu Deitsch and Vincent Christlein and Stephan Berger and Claudia Buerhop-Lutz and Andreas Maier and Florian Gallwitz and Christian Riess},
+  title     = {Automatic classification of defective photovoltaic module cells in electroluminescence images},
+  journal   = {Solar Energy},
+  year      = {2019},
+  volume    = {185},
+  pages     = {455--468},
+  month     = jun,
+  issn      = {0038-092X},
+  doi       = {10.1016/j.solener.2019.02.067},
+  publisher = {Elsevier {BV}},
 }
 ```
 
