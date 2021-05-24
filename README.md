@@ -46,14 +46,14 @@ publications:
 
 > Buerhop-Lutz, C.; Deitsch, S.; Maier, A.; Gallwitz, F.; Berger, S.; Doll, B.; Hauch, J.; Camus, C. & Brabec, C. J. A Benchmark for Visual Identification of Defective Solar Cells in Electroluminescence Imagery. European PV Solar Energy Conference and Exhibition (EU PVSEC), 2018. DOI: [10.4229/35thEUPVSEC20182018-5CV.3.15](http://dx.doi.org/10.4229/35thEUPVSEC20182018-5CV.3.15)
 
-> Deitsch, S.; Buerhop-Lutz, C.; Maier, A. K.; Gallwitz, F. & Riess, C. Segmentation of Photovoltaic Module Cells in Electroluminescence Images. CoRR, 2018, [abs/1806.06530](https://arxiv.org/abs/1806.06530)
+> Deitsch, S., Buerhop-Lutz, C., Sovetkin, E., Steland, A., Maier, A., Gallwitz, F., & Riess, C. (2021). Segmentation of photovoltaic module cells in uncalibrated electroluminescence images. Machine Vision and Applications, 32(4). DOI: [10.1007/s00138-021-01191-9](https://doi.org/10.1007/s00138-021-01191-9)
 
 > Deitsch, S.; Christlein, V.; Berger, S.; Buerhop-Lutz, C.; Maier, A.; Gallwitz, F. & Riess, C. Automatic classification of defective photovoltaic module cells in electroluminescence images. Solar Energy, Elsevier BV, 2019, 185, 455-468. DOI: [10.1016/j.solener.2019.02.067](http://dx.doi.org/10.1016/j.solener.2019.02.067)
 
 BibTeX details:
 
 <details>
-  
+
 ```bibtex
 
 @InProceedings{Buerhop2018,
@@ -66,17 +66,16 @@ BibTeX details:
   doi       = {10.4229/35thEUPVSEC20182018-5CV.3.15},
 }
 
-@TechReport{Deitsch2018,
-  Title            = {Segmentation of Photovoltaic Module Cells in Electroluminescence Images},
-  Author           = {Sergiu Deitsch and Claudia Buerhop-Lutz and Andreas K. Maier and Florian Gallwitz and Christian Riess},
-  Year             = {2018},
-  Archiveprefix    = {arXiv},
-  Eprint           = {1806.06530},
-  Journal          = {CoRR},
-  Url              = {http://arxiv.org/abs/1806.06530},
-  Volume           = {abs/1806.06530}
+@Article{Deitsch2021,
+  author       = {Deitsch, Sergiu and Buerhop-Lutz, Claudia and Sovetkin, Evgenii and Steland, Ansgar and Maier, Andreas and Gallwitz, Florian and Riess, Christian},
+  date         = {2021},
+  journaltitle = {Machine Vision and Applications},
+  title        = {Segmentation of photovoltaic module cells in uncalibrated electroluminescence images},
+  doi          = {10.1007/s00138-021-01191-9},
+  issn         = {1432-1769},
+  number       = {4},
+  volume       = {32},
 }
-
 
 @Article{Deitsch2019,
   author    = {Sergiu Deitsch and Vincent Christlein and Stephan Berger and Claudia Buerhop-Lutz and Andreas Maier and Florian Gallwitz and Christian Riess},
