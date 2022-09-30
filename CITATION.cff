@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+message: If you use this dataset in scientific context, please cite the publications below.
+title: A Benchmark for Visual Identification of Defective Solar Cells in Electroluminescence Imagery
+authors:
+- family-names: Buerhop-Lutz
+  given-names: Claudia
+  orcid: https://orcid.org/0000-0001-5233-6700
+- family-names: Deitsch
+  given-names: Sergiu
+  orcid: https://orcid.org/0000-0001-8865-8066
+- family-names: Maier
+  given-names: Andreas
+  orcid: https://orcid.org/0000-0002-9550-5284
+- family-names: Gallwitz
+  given-names: Florian
+  orcid: https://orcid.org/0000-0002-1359-8633
+- family-names: Berger
+  given-names: Stephan
+- family-names: Doll
+  given-names: Bernd
+- family-names: Hauch
+  given-names: Jens
+- family-names: Camus
+  given-names: Christian
+- family-names: Brabec
+  given-names: Christoph
+date-released: 2018-03-07
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: Buerhop-Lutz
+    given-names: Claudia
+    orcid: https://orcid.org/0000-0001-5233-6700
+  - family-names: Deitsch
+    given-names: Sergiu
+    orcid: https://orcid.org/0000-0001-8865-8066
+  - family-names: Maier
+    given-names: Andreas
+    orcid: https://orcid.org/0000-0002-9550-5284
+  - family-names: Gallwitz
+    given-names: Florian
+    orcid: https://orcid.org/0000-0002-1359-8633
+  - family-names: Berger
+    given-names: Stephan
+  - family-names: Doll
+    given-names: Bernd
+  - family-names: Hauch
+    given-names: Jens
+  - family-names: Camus
+    given-names: Christian
+  - family-names: Brabec
+    given-names: Christoph
+  title: A Benchmark for Visual Identification of Defective Solar Cells in Electroluminescence Imagery
+  conference:
+    name: 35th European Photovoltaic Solar Energy Conference and Exhibition
+    date-start: 2018-09-24
+    date-end: 2018-09-28
+    location: Brussels, Belgium
+  start: 1287
+  end: 1289
+  month: 9
+  year: 2018
+  isbn: 3-936338-50-7
+  doi: 10.4229/35thEUPVSEC20182018-5CV.3.15
+version: 1.0.0
+license: CC-BY-NC-SA-4.0
+repository-code: https://github.com/zae-bayern/elpv-dataset
