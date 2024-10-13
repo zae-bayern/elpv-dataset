@@ -27,9 +27,6 @@ Every image is annotated with a defect probability (a floating point value
 between 0 and 1) and the type of the solar module (either mono- or
 polycrystalline) the solar cell image was originally extracted from.
 
-The individual images are stored in the `images` directory and the corresponding
-annotations in `labels.csv`.
-
 ## Usage
 
 Install the Python package
