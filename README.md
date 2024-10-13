@@ -1,7 +1,7 @@
+# A Benchmark for Visual Identification of Defective Solar Cells in Electroluminescence Imagery
+
 [![PyPI - Version](https://img.shields.io/pypi/v/elpv-dataset.svg)](https://pypi.org/project/elpv-dataset)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/elpv-dataset.svg)](https://pypi.org/project/elpv-dataset)
-
-# A Benchmark for Visual Identification of Defective Solar Cells in Electroluminescence Imagery
 
 This repository provides a dataset of solar cell images extracted from
 high-resolution electroluminescence images of photovoltaic modules.
