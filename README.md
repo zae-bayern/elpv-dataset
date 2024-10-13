@@ -96,7 +96,7 @@ BibTeX details:
 
 ## License
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />All the images in this work are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Accompanying Python source code is distributed under the terms of the [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0.html) license.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />All the images in this work are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Accompanying Python source code is distributed under the terms of the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).
 
 
 For commercial use, please contact us for further information.
