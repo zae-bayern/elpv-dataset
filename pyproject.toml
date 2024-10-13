@@ -1,0 +1,89 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "elpv-dataset"
+dynamic = ["version"]
+description = 'A dataset of functional and defective solar cells extracted from EL images of solar modules'
+readme = "README.md"
+requires-python = ">=3.9"
+license = "CC-BY-NC-SA-4.0 AND Apache-2.0"
+keywords = ['solar cells', 'solar energy', 'photovoltaic']
+authors = [
+  { name = "Sergiu Deitsch", email = "sergiu.deitsch@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    'numpy',
+    'pillow',
+]
+
+[project.optional-dependencies]
+dev = [
+    'coverage',
+    'pytest>=6.0.0',
+    'ruff',
+]
+
+[project.urls]
+Documentation = "https://github.com/zae-bayern/elpv-dataset#readme"
+Issues = "https://github.com/zae-bayern/elpv-dataset/issues"
+Source = "https://github.com/zae-bayern/elpv-dataset"
+
+[tool.hatch.version]
+path = "src/elpv_dataset/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/elpv_dataset tests}"
+
+[tool.coverage.run]
+source_pkgs = ["elpv_dataset"]
+branch = true
+omit = [
+  "src/elpv_dataset/__about__.py",
+]
+
+[tool.coverage.paths]
+elpv_dataset = ["src/elpv_dataset"]
+tests = ["tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
+
+[tool.black]
+skip-string-normalization = true
+
+[tool.isort]
+force_single_line = true
+from_first = true
+no_sections = true
+order_by_type = false
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]

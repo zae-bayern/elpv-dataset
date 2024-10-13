@@ -1,0 +1,40 @@
+name: Linux
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: Python-${{matrix.python}}
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        python:
+          - 'pypy3.9'
+          - 'pypy3.10'
+          - '3.9'
+          - '3.10'
+          - '3.11'
+          - '3.12'
+          - '3.13'
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          pip install --editable '.[dev]'
+
+      - name: Lint
+        run: |
+          ruff check --output-format=github .
+
+      - name: Test
+        run: |
+          coverage run -m pytest
+          coverage report

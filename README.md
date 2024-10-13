@@ -1,3 +1,6 @@
+[![PyPI - Version](https://img.shields.io/pypi/v/elpv-dataset.svg)](https://pypi.org/project/elpv-dataset)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/elpv-dataset.svg)](https://pypi.org/project/elpv-dataset)
+
 # A Benchmark for Visual Identification of Defective Solar Cells in Electroluminescence Imagery
 
 This repository provides a dataset of solar cell images extracted from
@@ -29,15 +32,17 @@ annotations in `labels.csv`.
 
 ## Usage
 
-In Python, use `utils/elpv_reader` in this repository to load the images and the
-corresponding annotations as follows:
-
-```python
-from elpv_reader import load_dataset
-images, proba, types = load_dataset()
+Install the Python package
+```console
+pip install elpv-dataset
 ```
 
-The code requires NumPy and Pillow to work correctly.
+and load the images and the corresponding annotations as follows:
+
+```python
+from elpv_dataset.utils import load_dataset
+images, proba, types = load_dataset()
+```
 
 ## Citing
 
