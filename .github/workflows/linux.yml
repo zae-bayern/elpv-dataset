@@ -9,8 +9,8 @@ jobs:
     strategy:
       matrix:
         python:
-          - 'pypy3.9'
           - 'pypy3.10'
+          - 'pypy3.11'
           - '3.9'
           - '3.10'
           - '3.11'
