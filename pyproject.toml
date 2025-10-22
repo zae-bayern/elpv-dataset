@@ -7,7 +7,7 @@ name = "elpv-dataset"
 dynamic = ["version"]
 description = 'A dataset of functional and defective solar cells extracted from EL images of solar modules'
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = "CC-BY-NC-SA-4.0 AND Apache-2.0"
 keywords = ['solar cells', 'solar energy', 'photovoltaic']
 authors = [
@@ -19,7 +19,6 @@ classifiers = [
   "Intended Audience :: Science/Research",
   "Programming Language :: Python",
   "Programming Language :: Python :: 3",
-  "Programming Language :: Python :: 3.9",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
