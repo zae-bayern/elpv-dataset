@@ -28,7 +28,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install --editable '.[dev]'
+          pip install --prefer-binary --editable '.[dev]'
 
       - name: Lint
         run: |
